@@ -1,0 +1,198 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  font-family: Segoe UI;
+}
+
+.calculator {
+  width: 400px; /* Increased the size of the calculator */
+  padding: 30px; /* Increased the padding */
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background: #3b4664;
+}
+p {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+}
+.display {
+  text-align: right;
+  margin-bottom: 10px;
+  background-color: #181f32;
+  color: #fff;
+  border-radius: 10px;
+  padding-right: 30px; /* Added padding to the right */
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Segoe UI;
+  }
+
+  .calculator {
+    width: 400px; /* Increased the size of the calculator */
+    padding: 30px; /* Increased the padding */
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: #3b4664;
+  }
+  p {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .display {
+    text-align: right;
+    margin-bottom: 10px;
+    background-color: #181f32;
+    color: #fff;
+    border-radius: 10px;
+    padding-right: 30px; /* Added padding to the right */
+  }
+
+  #display {
+    width: 100%;
+    padding: 20px;
+    font-size: 34px;
+    font-weight: 600;
+  }
+
+  .buttons {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    padding: 30px;
+    border-radius: 12px;
+    background: #252d44;
+  }
+
+  button {
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .digit-button,
+  .operator-button,
+  .equal-button,
+  .reset-button,
+  .delete-button {
+    cursor: pointer;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    transition: all 0.2s;
+  }
+
+  .reset-button,
+  .delete-button {
+    background: #647299;
+    border: 1px solid #647299;
+    color: #fff;
+  }
+
+  .equal-button {
+    background: #d13f30;
+    border: 1px solid #d13f30;
+    color: #fff;
+  }
+
+  .digit-button:hover,
+  .operator-button:hover {
+    background-color: #ccc;
+  }
+
+  .delete-button:hover,
+  .reset-button:hover {
+    background-color: #8c97b5;
+    border: 1px solid #8c97b5;
+  }
+
+  .equal-button:hover {
+    background-color: #e18277;
+    border: 1px solid #e18277;
+  }
+
+  .reset-button.span-two,
+  .equal-button.span-two {
+    grid-column-end: span 2;
+  }
+}
+
+#display {
+  width: 100%;
+  padding: 20px;
+  font-size: 34px;
+  font-weight: 600;
+}
+
+.buttons {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  padding: 30px;
+  border-radius: 12px;
+  background: #252d44;
+}
+
+button {
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.digit-button,
+.operator-button,
+.equal-button,
+.reset-button,
+.delete-button {
+  cursor: pointer;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  transition: all 0.2s;
+}
+
+.reset-button,
+.delete-button {
+  background: #647299;
+  border: 1px solid #647299;
+  color: #fff;
+}
+
+.equal-button {
+  background: #d13f30;
+  border: 1px solid #d13f30;
+  color: #fff;
+}
+
+.digit-button:hover,
+.operator-button:hover {
+  background-color: #ccc;
+}
+
+.delete-button:hover,
+.reset-button:hover {
+  background-color: #8c97b5;
+  border: 1px solid #8c97b5;
+}
+
+.equal-button:hover {
+  background-color: #e18277;
+  border: 1px solid #e18277;
+}
+
+.reset-button.span-two,
+.equal-button.span-two {
+  grid-column-end: span 2;
+}
